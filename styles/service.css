@@ -1,0 +1,189 @@
+.service {
+    max-width: 90%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 20px;
+}
+
+.service h1 {
+    opacity: 0.8;
+	text-align: center;
+	margin: 15px 0 30px 0;
+	font-size: 42px;
+}
+
+.service h2 {
+    box-sizing: border-box;
+    padding: 20px 0;
+    letter-spacing: 0.2em;
+    border-left: 2px dashed #E89E12;
+    border-right: 2px dashed #E89E12;
+    border-top: 2px dashed #E89E12;
+    margin: 50px auto 0 auto;
+    width: 90%;
+    background-color: rgb(255,255,255, 0.9);
+    color: #E89E12;
+}
+
+.service-box {
+    box-sizing: border-box;
+    border: 2px dashed #E89E12;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(255,255,255, 0.9);
+    padding: 50px;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+}
+
+.service-box i {
+    color: #E89E12;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.service-buttons {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-buttons a {
+    text-decoration: none;
+    color: #000;
+    transition: 2s linear;
+    padding: 10px 50px;
+    width: 20%;
+    margin: 0;
+    border: 2px dashed #E89E12;
+    background-color: rgb(255,255,255, 0.9);
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 2s linear;
+}
+
+.service-buttons a:hover {
+    background-color: #E89E12;
+    color: #fff;
+}
+
+
+.service-buttons-after-pre {
+    width: 86%;
+}
+
+.service > table {
+    width: 95%;
+    margin: 40px auto;
+    border-top: 2px dashed #E89E12;
+    border-left: 2px dashed #E89E12;
+    border-right: 2px dashed #E89E12;
+    text-align: center;
+    background-color: rgb(255,255,255, 0.9);
+}
+
+.service>table td,
+th {
+    border-bottom: 2px dashed #E89E12;
+    padding: 20px;
+}
+
+.service th {
+    width: 20%;
+    text-align: center;
+    border-right: 2px dashed #E89E12;
+}
+
+.service ul {
+    list-style-type: none;
+}
+
+.service-mobile {
+    display: none;
+}
+
+@media (max-width: 1025px) {
+    .service h1 {
+        margin: 15px;
+        font-size: 32px;
+    }
+
+    .service h2 {
+        padding: 10px;
+        font-size: 1.1em;
+        margin: 5px auto 0 auto;
+    }
+
+    .service-box {
+        padding: 20px 10px;
+        line-height: 1.8em;
+        font-size: 0.7em;
+    }
+
+    .service-box i {
+        font-size: 40px;
+    }
+
+    .service-buttons a {
+        width: 100%;
+        margin: 0 0 20px 0;
+        font-size: 15px;
+    }
+
+
+    .service>table td,
+    th {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+}
+
+@media (max-width: 460px) {
+    table {
+        display: none;
+    }
+
+    .service-mobile {
+        display: inline-block;
+        background-color: rgb(255,255,255, 0.9);
+        padding: 10px 5px;
+        border-bottom: 2px dashed #E89E12;
+    }
+
+    .service-mobile h1 {
+        font-size: 0.7em;
+    }
+
+    .service-mobile h3 {
+        border-top: 2px dashed #E89E12;
+        border-bottom: 2px dashed #E89E12;
+        padding: 10px 0;
+        font-size: 0.9em;
+    }
+
+    .service-mobile p {
+        padding: 20px 0;
+        font-size: 0.8em;
+    }
+    
+    .service h1 {
+        margin: 15px;
+        font-size: 32px;
+    }
+
+    .service-box {
+        padding: 10px;
+        line-height: 1.8em;
+    }
+
+    .service-buttons {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    
+}
