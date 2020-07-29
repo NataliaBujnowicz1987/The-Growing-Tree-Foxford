@@ -30,9 +30,9 @@
 	width: 95%;
 	height: 100%;
 	-webkit-box-shadow: 1px 1px 10px 1px #000;
-    box-shadow: 1px 1px 10px 1px #000;
+        box-shadow: 1px 1px 10px 1px #000;
 	border: 2px dashed #99cc33;
-    border-radius: 15px;
+        border-radius: 15px;
 }
 
 .staff-info {
@@ -80,12 +80,16 @@
 	position: absolute;
 	bottom: -33px;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 	width: 0;
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 21px solid #99cc33;
+	-webkit-transition: 1s linear;
+	-o-transition: 1s linear;
 	transition: 1s linear;
 	cursor: pointer;
 }
